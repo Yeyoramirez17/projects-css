@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 10</title>
+
+    <!-- Montserrat -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="./../fonts/fontawesome-6.1.2/css/all.min.css">
+    <link rel="stylesheet" href="./../fonts/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <div class="layout">
+        <h1 class="layout__title">Busca tu hotel</h1>
+
+        <form class="layout__search">
+            <input type="search" class="search__input" placeholder="Busa y encuentra tu hotel">
+
+            <button class="search__btn">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+        </form>
+
+        <section class="layout__results">
+            <article class="results__result">
+                <p class="result__subtitle">Nombre: </p>
+                <h3 class="result__title">Hotel Victor</h3>
+            </article>
+
+            <article class="results__result">
+                <p class="result__subtitle">Ubicación: </p>
+                <h3 class="result__title">Calle 9A #42-01</h3>
+            </article>
+
+            <article class="results__result">
+                <p class="result__subtitle">Fecha: </p>
+                <h3 class="result__title">01/07/2025</h3>
+            </article>
+        </section>
+
+        <section class="layout__map">
+            <iframe class="map__frame" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3986.195420934774!2d-76.60884882527247!3d2.4418673975370893!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e30030ff9207c27%3A0xf76217f9f8464ebe!2sParque%20Caldas!5e0!3m2!1ses!2sco!4v1739229314365!5m2!1ses!2sco" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+    </div>
+</body>
+</html>

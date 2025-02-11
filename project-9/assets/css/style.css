@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'Open Sans';
+    src: url(../fonts/Open_Sans/OpenSans-Italic-VariableFont_wdth\,wght.ttf);
+}
+
+body {
+    background-color: aliceblue;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: 'Roboto';
+}
+h3 {
+    font-size: 30px;
+    font-family: 'Open Sans';
+}
+h4 {
+    font-family: 'Roboto';
+}
